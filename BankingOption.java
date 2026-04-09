@@ -45,14 +45,14 @@ public class BankingOption {
                     System.out.println("\n");
                     break;
                 case 'B':
-                    System.out.println("PLease enter an amount to deposite: ");
+                    System.out.print("PLease enter an amount to deposite: ");
                     int dip=scan.nextInt();
                     deposite(dip);
                     System.out.println("You have deposited "+dip+"$ successfully.");
                     System.out.println("\n");
                     break;
                 case 'C':
-                    System.out.println("PLease enter an amount to withdraw: ");
+                    System.out.print("PLease enter an amount to withdraw: ");
                     int wit=scan.nextInt();
                     withdraw(wit);
                     System.out.println("\n");
@@ -63,7 +63,7 @@ public class BankingOption {
                     break;
                 case 'E':
                     System.out.println("Thanks for banking with us. :)");
-            
+                    break;
                 default:
                     System.out.println("PLease select valid option.");
                     System.out.println("\n");
