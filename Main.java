@@ -5,6 +5,7 @@ public class Main {
     Scanner scan=new Scanner(System.in);
     BankingOption obj1= new BankingOption();
     obj1.showMenu();
+    scan.close();
 
   }
 }

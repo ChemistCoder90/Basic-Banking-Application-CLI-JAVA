@@ -6,7 +6,7 @@ public class BankingOption {
     String customername="Emon";
     String customerID="1025";
     Scanner scan= new Scanner(System.in);
-
+    
     void deposite(int amount){
         Balance+=amount;
         previousTransection=amount;
@@ -71,5 +71,6 @@ public class BankingOption {
             }
         }
         while(input!='E');
+        scan.close();
     }
 }
